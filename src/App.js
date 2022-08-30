@@ -3,7 +3,11 @@ import Header from './Components/Pages/Shared/Header';
 import Login from './Components/Pages/Shared/Login';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Pages/Home/Home';
-import Services from './Components/Pages/Home/Services';
+import SignUp from './Components/Pages/Shared/SignUp';
+import Items from './Components/Pages/Home/Items';
+import AddItem from './Components/Pages/Home/AddItem';
+import ManageItem from './Components/Pages/ManageItem/ManageItem';
+import RequireAuth from './Components/Pages/Shared/RequireAuth';
 
 function App() {
   return (
@@ -11,8 +15,22 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/items' element={<Items></Items>}></Route>
+
+        <Route path='/addItem' element={
+          <RequireAuth>
+            <AddItem></AddItem>
+          </RequireAuth>
+        }></Route>
+
+        <Route path='/manageItem' element={
+          <RequireAuth>
+            <ManageItem></ManageItem>
+          </RequireAuth>
+        }></Route>
+        
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
     </div>
   );

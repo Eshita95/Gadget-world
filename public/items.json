@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Redmi Earphone",
+        "price": "300$",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/nmZWK63/earphone.jpg"
+    },
+    {
+        
+        "name": "Headset",
+        "price": "100$",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/sjkYHH3/headset.jpg"
+    },
+    {
+        
+        "name": "Samsung Mobile",
+        "price": "500$",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/q7ZWkMn/item.jpg"
+    },
+    {
+        
+        "name": "HP Laptop",
+        "price": "180",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/34dP4Cy/hp.jpg"
+    },
+    {
+        
+        "name": "Oppo Mobile",
+        "price": "100",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/8KYBdm2/oppo.jpg"
+    },
+    {
+        
+        "name": "Mac Book",
+        "price": "300",
+        "quantity": "1800",
+        "supplier": "MR. Jhon",
+        "description": "Welcome to Gadget World. Gadget World is currently one of the most trusted online and offline Mobile and Gadget store in our country.",
+        "img": "https://i.ibb.co/bH8XwdS/macbook.jpg"
+
+        
+    }
+]
+
