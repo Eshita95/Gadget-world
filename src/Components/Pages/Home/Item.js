@@ -7,7 +7,7 @@ const Item = ({ item }) => {
     const navigate = useNavigate();
 
     const navigateToItemDetail = id => {
-        navigate(`/service/${id}`);
+        navigate('/manageItem');
     }
     return (
         <div className='pb-10 border-radius-10'>

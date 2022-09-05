@@ -22,7 +22,7 @@ const Header = () => {
         }
         {
             user ?
-                <li className='hover:text-orange-500' onClick={handleSignOut}>sign out</li>
+                <li className='hover:text-orange-500 pt-3' onClick={handleSignOut}>sign out</li>
                 :
                 <li className='hover:text-orange-500'><Link to="/login">Login</Link></li>
         }

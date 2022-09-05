@@ -3,7 +3,7 @@ import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-fireba
 import auth from '../../../firebase.init';
 import { useForm } from "react-hook-form";
 import Loading from './Loading';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -16,6 +16,8 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const { register, formState: { errors }, handleSubmit } = useForm();
+
+    const navigate = useNavigate();
 
     let signInError;
 
@@ -35,6 +37,7 @@ const Login = () => {
     const onSubmit = data => {
         console.log(data);
         signInWithEmailAndPassword(data.email, data.password);
+        navigate('/manageItem')
     };
     return (
         <div className='flex justify-center items-center h-screen'>
@@ -97,7 +100,7 @@ const Login = () => {
                         {signInError}
                         <input className='btn bg-orange-500 hover:bg-orange-700 w-full max-w-xs' type="submit" value='Login' />
                     </form>
-                    <p>New to Gadget World? <Link to='/signup'>Create New Account</Link></p>
+                    <p>New to Gadget World? <Link to='/signup'><span className='text-orange-500'>Create New Account</span></Link></p>
                     <div className="divider">OR</div>
                     <button
                         onClick={() => signInWithGoogle()}
