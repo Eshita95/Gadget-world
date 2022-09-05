@@ -12,7 +12,7 @@ const Item = ({ item }) => {
     return (
         <div className='pb-10 border-radius-10'>
             <img className='w-100' src={img} alt="" />
-            <h2>{name}</h2>
+            <h2 className='text-xl font-bold'>{name}</h2>
             <p>Price: {price}</p>
             <p>Quantity: {quantity}</p>
             <p>Supplier Name: {supplier}</p>

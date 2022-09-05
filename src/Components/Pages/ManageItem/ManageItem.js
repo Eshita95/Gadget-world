@@ -59,17 +59,15 @@ const ManageItem = () => {
         <div className="px-5">
             <div className=" my-10 heading font-bold text-4xl">
                 <h1>
-                    Manage <span className=" text-success">Your Inventories</span>
+                    Manage <span className=" text-orange-500">Your Inventories</span>
                 </h1>
                 <p className=" font-semibold text-base my-1">
-                    I can manage here all items, remove or update items. If we confirm
-                    remove then it permanently delete from database then you cannot remove
-                    it.
+                    I can manage here all items, remove or update items.
                 </p>
             </div>
             <div className=" border-[0] border-b-0 border-t-0 border-gray-600">
-                <div className="py-4 mb-2 bg-slate-700 text-white flex items-center">
-                    <div className="mx-8 font-bold">serial</div>
+                <div className="py-4 mb-2 bg-orange-500 text-white flex items-center">
+                    <div className="mx-8 font-bold">Serial</div>
                     <div className="  w-full font-semibold grid grid-cols-3 md:grid-cols-6 gap-5 items-center">
                         <div>Image</div>
                         <div>Product Name</div>
@@ -117,10 +115,10 @@ const ManageItem = () => {
                 </div>
                 <div>
                     <Link
-                        to="/addNewItems"
-                        className="btn btn-success font-bold my-5 text-xl"
+                        to="/addItem"
+                        className="btn bg-orange-500 hover:bg-orange-700 font-bold my-5 text-xl"
                     >
-                        <i class="fa-solid fa-folder-plus mr-2 "></i> Add New Items
+                        <i class="fa-solid fa-folder-plus mr-2 "></i> Add New Item
                     </Link>
                 </div>
             </div>

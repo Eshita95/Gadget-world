@@ -37,7 +37,7 @@ const Login = () => {
     const onSubmit = data => {
         console.log(data);
         signInWithEmailAndPassword(data.email, data.password);
-        navigate('/manageItem')
+        navigate('/home')
     };
     return (
         <div className='flex justify-center items-center h-screen'>
