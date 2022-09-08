@@ -18,6 +18,7 @@ const Header = () => {
             user && <>
                 <li className='hover:text-orange-500'><Link to="/addItem">Add Item</Link></li>
                 <li className='hover:text-orange-500'><Link to="/manageItem">Manage Item</Link></li>
+                <li className='hover:text-orange-500'><Link to="/myItem">My Item</Link></li>
             </>
         }
         {

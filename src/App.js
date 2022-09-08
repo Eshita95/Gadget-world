@@ -8,6 +8,7 @@ import Items from './Components/Pages/Home/Items';
 import AddItem from './Components/Pages/Home/AddItem';
 import ManageItem from './Components/Pages/ManageItem/ManageItem';
 import RequireAuth from './Components/Pages/Shared/RequireAuth';
+import MyItem from './Components/Pages/Home/MyItem';
 
 function App() {
   return (
@@ -26,6 +27,12 @@ function App() {
         <Route path='/manageItem' element={
           <RequireAuth>
             <ManageItem></ManageItem>
+          </RequireAuth>
+        }></Route>
+
+        <Route path='/myItem' element={
+          <RequireAuth>
+            <MyItem></MyItem>
           </RequireAuth>
         }></Route>
         

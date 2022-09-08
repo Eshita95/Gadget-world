@@ -26,9 +26,9 @@ const Items = () => {
                 }
             </div>
 
-            <Link to="/manageInventories">
+            <Link to="/manageItem">
           <button className="text-white bg-orange-500 hover:bg-orange-700  rounded font-semibold my-5  py-2 px-8">
-            Manage Inventory <i class="fa-solid fa-arrow-right"></i>
+            Manage Inventory <i className="fa-solid fa-arrow-right"></i>
           </button>
         </Link>
         </div>

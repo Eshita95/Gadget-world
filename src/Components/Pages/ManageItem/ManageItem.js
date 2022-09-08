@@ -104,12 +104,12 @@ const ManageItem = () => {
                                             htmlFor="DeleteConfirmPopUp"
                                             className="cursor-pointer hover:text-orange-500 btn-sm lg:btn-md"
                                         >
-                                            <i class="fa-solid fa-trash-can  text-2xl "></i>
+                                            <i className="fa-solid fa-trash-can  text-2xl "></i>
                                         </label>
                                     </div>
                                 </div>
                             </div>
-                            <div class="divider mb-0"></div>
+                            <div className="divider mb-0"></div>
                         </>
                     ))}
                 </div>
@@ -118,7 +118,7 @@ const ManageItem = () => {
                         to="/addItem"
                         className="btn bg-orange-500 hover:bg-orange-700 font-bold my-5 text-xl"
                     >
-                        <i class="fa-solid fa-folder-plus mr-2 "></i> Add New Item
+                        <i className="mr-2 "></i> Add New Item
                     </Link>
                 </div>
             </div>

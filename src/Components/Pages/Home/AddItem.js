@@ -90,14 +90,14 @@ const AddItem = () => {
                     Add New Item
                 </h1>
             </div>
-            <div class="  mx-auto border-[2px] rounded-md border-gray-200 p-2">
-                <div class="avatar w-52  mx-auto ">
+            <div className="  mx-auto border-[2px] rounded-md border-gray-200 p-2">
+                <div className="avatar w-52  mx-auto ">
                     <img src={imgUrl} className="w-full" alt="" />
                 </div>
 
                 <div className=" flex gap-6 items-center">
-                    <label class="label w-44">
-                        <span class=" text-[16px] font-semibold"> Image Select : </span>
+                    <label className="label w-44">
+                        <span className=" text-[16px] font-semibold"> Image Select : </span>
                     </label>
                     <input type="file" onChange={onImageChange} className=" " required />
                 </div>
@@ -106,8 +106,8 @@ const AddItem = () => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 {/*  */}
                 <div className="my-2">
-                    <label class="label">
-                        <span class="label-text font-semibold"> Title Name : </span>
+                    <label className="label">
+                        <span className="label-text font-semibold"> Title Name : </span>
                     </label>
                     <input
                         type="text"
@@ -119,8 +119,8 @@ const AddItem = () => {
 
                 {/*  */}
                 <div className="my-2">
-                    <label class="label">
-                        <span class="label-text font-semibold"> Supplier Name : </span>
+                    <label className="label">
+                        <span className="label-text font-semibold"> Supplier Name : </span>
                     </label>
                     <input
                         type="text"
@@ -132,8 +132,8 @@ const AddItem = () => {
 
                 {/*  */}
                 <div className="my-2">
-                    <label class="label">
-                        <span class="label-text font-semibold"> Price : </span>
+                    <label className="label">
+                        <span className="label-text font-semibold"> Price : </span>
                     </label>
                     <input
                         type="number"
@@ -145,8 +145,8 @@ const AddItem = () => {
 
                 {/*  */}
                 <div className="my-2">
-                    <label class="label">
-                        <span class="label-text font-semibold"> Total quantity : </span>
+                    <label className="label">
+                        <span className="label-text font-semibold"> Total quantity : </span>
                     </label>
                     <input
                         type="number"
@@ -158,8 +158,8 @@ const AddItem = () => {
 
                 {/*  */}
                 <div className="my-2">
-                    <label class="label">
-                        <span class="label-text font-semibold"> Description : </span>
+                    <label className="label">
+                        <span className="label-text font-semibold"> Description : </span>
                     </label>
                     <textarea
                         name=""
